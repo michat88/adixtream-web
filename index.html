@@ -6,13 +6,10 @@
     <title>AdiXtream 🎬 - Nonton Film & Drakor Tanpa Ribet</title>
     <meta name="description" content="AdiXtream adalah aplikasi streaming Android untuk nonton film dan drakor gratis tanpa ribet dengan subtitle Indonesia.">
     
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
-    <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
     <script>
@@ -69,7 +66,6 @@
 </head>
 <body class="antialiased overflow-x-hidden selection:bg-primary selection:text-white">
 
-    <!-- Navigation -->
     <nav class="fixed w-full z-50 bg-dark/80 backdrop-blur-md border-b border-slate-700">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
@@ -94,9 +90,7 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden gradient-bg border-b border-slate-800">
-        <!-- Background Decorative Blobs -->
         <div class="absolute top-0 left-1/4 w-96 h-96 bg-primary/20 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob"></div>
         <div class="absolute top-0 right-1/4 w-96 h-96 bg-secondary/20 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-blob animation-delay-2000"></div>
 
@@ -117,7 +111,7 @@
             </p>
             
             <div class="flex flex-col sm:flex-row justify-center gap-4 mb-10">
-                <a href="https://github.com/michat88/AdiXtream/releases" target="_blank" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-primary hover:bg-blue-600 shadow-lg shadow-blue-500/30 transition-all transform hover:-translate-y-1">
+                <a id="download-btn" href="https://github.com/michat88/AdiXtream/releases" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-lg font-medium rounded-full text-white bg-primary hover:bg-blue-600 shadow-lg shadow-blue-500/30 transition-all transform hover:-translate-y-1">
                     <i class="fas fa-download mr-2"></i> Download APK
                 </a>
                 <a href="#premium" class="inline-flex items-center justify-center px-8 py-4 border border-yellow-500/50 text-lg font-medium rounded-full text-yellow-400 bg-card hover:bg-yellow-500/10 transition-all">
@@ -125,7 +119,6 @@
                 </a>
             </div>
 
-            <!-- Badges -->
             <div class="flex flex-wrap justify-center gap-3">
                 <img src="https://img.shields.io/github/v/release/michat88/AdiXtream?style=for-the-badge&color=blue" alt="Latest Release">
                 <img src="https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android" alt="Platform">
@@ -139,7 +132,6 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about" class="py-20 bg-dark">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="lg:text-center">
@@ -154,7 +146,6 @@
         </div>
     </section>
 
-    <!-- Features Section -->
     <section id="features" class="py-20 bg-slate-900 border-t border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
@@ -163,7 +154,6 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Feature 1 -->
                 <div class="bg-card rounded-2xl p-6 border border-slate-700 card-hover">
                     <div class="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center mb-4">
                         <i class="fas fa-database text-blue-400 text-xl"></i>
@@ -172,7 +162,6 @@
                     <p class="text-gray-400">Sumber tontonan (Provider) sudah tersedia secara bawaan tanpa perlu memasukkan link manual lagi.</p>
                 </div>
 
-                <!-- Feature 2 -->
                 <div class="bg-card rounded-2xl p-6 border border-slate-700 card-hover">
                     <div class="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center mb-4">
                         <i class="fas fa-bolt text-green-400 text-xl"></i>
@@ -181,7 +170,6 @@
                     <p class="text-gray-400">Ekstensi otomatis aktif dan siap digunakan sejak pertama kali aplikasi dibuka. Tidak ada proses yang rumit.</p>
                 </div>
 
-                <!-- Feature 3 -->
                 <div class="bg-card rounded-2xl p-6 border border-yellow-500/20 border-yellow-500/30 card-hover">
                     <div class="w-12 h-12 bg-yellow-500/20 rounded-lg flex items-center justify-center mb-4">
                         <i class="fas fa-crown text-yellow-400 text-xl"></i>
@@ -190,7 +178,6 @@
                     <p class="text-gray-400">Akses repositori super eksklusif dan ekstensi khusus melalui sistem Premium yang aman dan cepat.</p>
                 </div>
 
-                <!-- Feature 4 -->
                 <div class="bg-card rounded-2xl p-6 border border-slate-700 card-hover">
                     <div class="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center mb-4">
                         <i class="fas fa-compass text-purple-400 text-xl"></i>
@@ -199,7 +186,6 @@
                     <p class="text-gray-400">Antarmuka disesuaikan untuk meminimalkan langkah konfigurasi yang membingungkan, sangat cocok untuk pengguna awam.</p>
                 </div>
 
-                <!-- Feature 5 -->
                 <div class="bg-card rounded-2xl p-6 border border-slate-700 card-hover">
                     <div class="w-12 h-12 bg-red-500/20 rounded-lg flex items-center justify-center mb-4">
                         <i class="fas fa-language text-red-400 text-xl"></i>
@@ -208,7 +194,6 @@
                     <p class="text-gray-400">Prioritas utama pada penyedia konten dengan dukungan Bahasa Indonesia dan subtitle yang relevan (Sub Indo).</p>
                 </div>
 
-                <!-- Feature 6 -->
                 <div class="bg-card rounded-2xl p-6 border border-slate-700 card-hover">
                     <div class="w-12 h-12 bg-pink-500/20 rounded-lg flex items-center justify-center mb-4">
                         <i class="fas fa-rocket text-pink-400 text-xl"></i>
@@ -220,7 +205,6 @@
         </div>
     </section>
 
-    <!-- Providers Section -->
     <section class="py-16 bg-dark border-t border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 class="text-2xl font-bold mb-8">Penyedia Populer (Providers)</h2>
@@ -234,7 +218,6 @@
         </div>
     </section>
 
-    <!-- Premium Section -->
     <section id="premium" class="py-20 premium-bg border-t border-yellow-900/30">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
@@ -247,9 +230,7 @@
                 </p>
             </div>
 
-            <!-- Pricing Cards -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-                <!-- 1 Bulan -->
                 <div class="bg-card rounded-2xl border border-slate-700 p-8 text-center premium-card-hover relative overflow-hidden">
                     <h3 class="text-xl font-bold text-gray-300 mb-2">1 Bulan</h3>
                     <div class="text-3xl font-extrabold text-white mb-6">Rp 10.000</div>
@@ -260,7 +241,6 @@
                     </ul>
                 </div>
 
-                <!-- 1 Tahun (Best Value) -->
                 <div class="bg-slate-800 rounded-2xl border-2 border-accent p-8 text-center premium-card-hover relative transform md:-translate-y-4 shadow-2xl shadow-yellow-500/10">
                     <div class="absolute top-0 right-0 bg-accent text-black text-xs font-bold px-3 py-1 rounded-bl-lg">TERLARIS</div>
                     <h3 class="text-xl font-bold text-yellow-400 mb-2">1 Tahun</h3>
@@ -272,7 +252,6 @@
                     </ul>
                 </div>
 
-                <!-- 6 Bulan -->
                 <div class="bg-card rounded-2xl border border-slate-700 p-8 text-center premium-card-hover relative overflow-hidden">
                     <h3 class="text-xl font-bold text-gray-300 mb-2">6 Bulan</h3>
                     <div class="text-3xl font-extrabold text-white mb-6">Rp 50.000</div>
@@ -284,7 +263,6 @@
                 </div>
             </div>
 
-            <!-- Activation Steps -->
             <div class="bg-slate-900/80 rounded-2xl border border-slate-700 p-6 md:p-10">
                 <h3 class="text-2xl font-bold mb-6 text-center">Cara Pembelian & Aktivasi</h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
@@ -342,7 +320,6 @@
         </div>
     </section>
 
-    <!-- Guides Section -->
     <section id="guides" class="py-20 bg-slate-900 border-t border-slate-800">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
@@ -350,11 +327,10 @@
             </div>
 
             <div class="space-y-6">
-                <!-- Instalasi -->
                 <div class="bg-card rounded-xl p-6 border border-slate-700">
                     <h3 class="text-xl font-bold mb-4 flex items-center text-white"><i class="fas fa-download text-primary mr-3"></i> Cara Instalasi</h3>
                     <ol class="list-decimal list-inside space-y-2 text-gray-300 ml-2">
-                        <li>Unduh file <strong>APK</strong> terbaru melalui halaman <a href="https://github.com/michat88/AdiXtream/releases" class="text-primary hover:underline">Releases</a>.</li>
+                        <li>Unduh file <strong>APK</strong> terbaru melalui tombol Download di atas.</li>
                         <li>Buka file APK tersebut di perangkat Android Anda.</li>
                         <li>Berikan izin instalasi dari <strong>"Sumber Tidak Dikenal"</strong> jika diminta oleh sistem.</li>
                         <li>Jalankan aplikasi <strong>AdiXtream</strong>.</li>
@@ -362,7 +338,6 @@
                     </ol>
                 </div>
 
-                <!-- NSFW Mode -->
                 <div class="bg-card rounded-xl p-6 border border-slate-700">
                     <h3 class="text-xl font-bold mb-4 flex items-center text-red-400"><i class="fas fa-fire text-red-500 mr-3"></i> Mode Aduh Ma Aduh Pa (NSFW)</h3>
                     <p class="text-gray-400 mb-4 text-sm">Bagi Anda yang membutuhkan konten ekstra, fitur NSFW sudah tersedia dan dapat diaktifkan dengan langkah berikut:</p>
@@ -373,7 +348,6 @@
                     </ul>
                 </div>
 
-                <!-- DNS Aman -->
                 <div class="bg-card rounded-xl p-6 border border-slate-700">
                     <h3 class="text-xl font-bold mb-4 flex items-center text-green-400"><i class="fas fa-shield-alt text-green-500 mr-3"></i> Jalur Aman (Anti-Blokir ISP)</h3>
                     <p class="text-gray-400 mb-4 text-sm">Agar akses tontonan Anda tidak terganggu oleh pemblokiran internet (Internet Positif), aktifkan fitur DNS:</p>
@@ -385,7 +359,6 @@
         </div>
     </section>
 
-    <!-- Support Section -->
     <section class="py-16 bg-dark text-center border-t border-slate-800 relative overflow-hidden">
         <div class="absolute inset-0 bg-primary/5"></div>
         <div class="relative max-w-3xl mx-auto px-4">
@@ -402,7 +375,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="bg-slate-950 pt-12 pb-8 border-t border-slate-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
@@ -437,7 +409,29 @@
         </div>
     </footer>
 
+    <script>
+        async function setLatestDownloadLink() {
+            try {
+                // Mengambil data rilis terbaru dari GitHub API
+                const response = await fetch('https://api.github.com/repos/michat88/AdiXtream/releases/latest');
+                const data = await response.json();
+                
+                // Mencari file yang berakhiran .apk di dalam rilis terbaru
+                const apkAsset = data.assets.find(asset => asset.name.endsWith('.apk'));
+                
+                // Jika ketemu, ubah link tombol download ke link file APK tersebut
+                if (apkAsset) {
+                    const downloadBtn = document.getElementById('download-btn');
+                    downloadBtn.href = apkAsset.browser_download_url;
+                }
+            } catch (error) {
+                console.error('Gagal mengambil link APK terbaru:', error);
+            }
+        }
+        
+        // Jalankan fungsinya secara otomatis saat website dibuka
+        setLatestDownloadLink();
+    </script>
+
 </body>
 </html>
-
-
